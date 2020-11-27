@@ -1,5 +1,4 @@
 @import url(./vendor/normalize.css);
-@import url(./vendor/fonts.css);
 
 .cv {
     display: grid;
@@ -33,9 +32,9 @@
 }
 
 .subtitle {
-    font-family: "Bebas", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
+    font-family: "Bebas Neue", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 22px;
     font-weight: normal;
     border-bottom: 1px solid black;
     margin: 0;
@@ -83,9 +82,9 @@
 }
 
 .header__name {
-    font-family: "Bebas", "Arial", sans-serif;
-    font-size: 30px;
-    line-height: 32px;
+    font-family: "Bebas Neue", "Arial", sans-serif;
+    font-size: 40px;
+    line-height: 42px;
     font-weight: normal;
     color: white;
     margin: 0;
