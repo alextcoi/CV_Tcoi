@@ -1,5 +1,4 @@
 @import url(./vendor/normalize.css);
-
 .cv {
     display: grid;
     grid-template-rows: 190px max-content;
@@ -9,7 +8,7 @@
         "contacts main";
     gap: 0 10px;
     max-width: 768px;
-    margin: 0 5px;
+    margin: 0 auto;
     background-color: white;
 }
 
@@ -22,7 +21,7 @@
             "title"
             "main"
             "contacts";
-        margin: 0;
+        margin: 0 5px;
     }
 }
 
@@ -182,7 +181,7 @@
 }
 
 @media screen and (max-width: 424px) {
-    .header__title {
+    .header__title:last-of-type {
         margin-bottom: 20px;
     }
 }
