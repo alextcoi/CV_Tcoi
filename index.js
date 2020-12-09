@@ -90,11 +90,9 @@ russian.addEventListener('click', function () {
     header.innerHTML = '';
     mainText.innerHTML = '';
     contacts.textContent = '';
-    russian.textContent = '';
     languages.textContent = '';
 
     languages.textContent = 'Язык страницы';
-    russian.textContent = 'Рус';
     contacts.textContent = 'КОНТАКТЫ';
 
     header.innerHTML = `
